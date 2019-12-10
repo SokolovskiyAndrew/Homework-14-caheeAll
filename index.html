@@ -16,48 +16,73 @@
 
 <body>
     <section class="container__main">
-        <header class="header">
-            <div class="header__title">
-                <h2 id="header" class="header__title-main">Cahee</h2>
+        <div class="nav__stickers">
+            <div class="mySidenav">
+                <a class="nav__home" href="index.html">Home</a>
+                <a class="nav__about" href="#about">About</a>
+                <a class="nav__service" href="#service">Services</a>
+                <a class="nav__gallery" href="#gallery">Gallery</a>
+                <a class="nav__blog" href="#blog">Blog</a>
+                <a class="nav__contact" href="#contact">Contact</a>
             </div>
-            <nav>
-                <ul class="header__list">
-                    <li class="header__list-item"><a href="index.html">Home</a></li>
-                    <li class="header__list-item"><a href="#about">About us</a></li>
-                    <li class="header__list-item"><a href="#">Services</a></li>
-                    <li class="header__list-item"><a href="#">Gallery</a></li>
-                    <li class="header__list-item"><a href="#">Blog</a></li>
-                    <li class="header__list-item"><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header__mouse">
-                <a class="header__scroll" href="#header">
-                    <i class="fas fa-mouse"></i>
-                </a>
-            </div>
-        </header>
-        <div class="subtitle">
-            <h1 class="subtitle__title">Fresh life</h1>
-            <div class="subtitle__title-desc">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
-            </div>
-            <button class="subtitle__button" name="button">Get free now</button>
         </div>
-        <div class="cup">
-            <img class="cup__image" src="web/image/fruitcup.png" alt="cup of strawberry">
-            <div class="cup__title">
-                <h2 class="cup__title-main" id="about">About Us</h2>
-                <span class="cup__title-desc">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation
-                    ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum.
-                    Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</span>
+        <div class="wrapper__main">
+            <header class="header">
+                <div class="header__title">
+                    <h2 id="header" class="header__title-main">Cahee</h2>
+                </div>
+                <nav>
+                    <ul class="header__list">
+                        <li class="header__list-item"><a href="index.html">Home</a></li>
+                        <li class="header__list-item"><a href="#about">About us</a></li>
+                        <li class="header__list-item"><a href="#service">Services</a></li>
+                        <li class="header__list-item"><a href="#gallery">Gallery</a></li>
+                        <li class="header__list-item"><a href="#blog">Blog</a></li>
+                        <li class="header__list-item"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <ul class="hamb__menu">
+                            <li class="hamb-item"><a href="index.html">Home</a></li>
+                            <li class="hamb-item"><a href="#about">About us</a></li>
+                            <li class="hamb-item"><a href="#service">Services</a></li>
+                            <li class="hamb-item"><a href="#gallery">Gallery</a></li>
+                            <li class="hamb-item"><a href="#blog">Blog</a></li>
+                            <li class="hamb-item"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__mouse">
+                    <a class="header__scroll" href="#header">
+                        <i class="fas fa-mouse"></i>
+                    </a>
+                </div>
+            </header>
+            <div class="subtitle">
+                <h1 class="subtitle__title">Fresh life</h1>
+                <div class="subtitle__title-desc">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco.
+                </div>
+                <button class="subtitle__button" name="button">Get free now</button>
+            </div>
+            <div class="cup">
+                <img class="cup__image" src="web/image/fruitcup.png" alt="cup of strawberry">
+                <div class="cup__title">
+                    <h2 class="cup__title-main" id="about">About Us</h2>
+                    <span class="cup__title-desc">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation
+                        ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum.
+                        Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</span>
+                </div>
             </div>
         </div>
     </section>
-    <section class="service">
+    <section class="service" id="service">
         <div class="service__list">
             <ul class="list__item">
                 <li class="service__item">
@@ -92,7 +117,7 @@
             <h2 class="service__title">Our Services</h2>
         </div>
     </section>
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <div class="gallery__header">
             <h2 class="galley__title">Gallery</h2>
             <p class="gallery__title-desc">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -101,17 +126,21 @@
         </div>
         <div class="gallery__collage">
             <div class="gallery__collage-top">
-                <div class="gallery__main_img">
-                    <img src="web/image/img1.png">
+                <div class="gallery__main">
+                    <img src="web/image/1.png">
                 </div>
                 <div class="gallery__aside-right">
-                    <img src="web/image/img2.jpg">
-                    <img src="web/image/img3.jpg">
+                    <img src="web/image/2.png">
+                    <img src="web/image/3.png">
                 </div>
             </div>
             <div class="gallery__down">
-                <img src="web/image/img4.jpg">
-                <img src="web/image/img5.jpg">
+                <div class="gallery__down-first">
+                    <img src="web/image/4.png">
+                </div>
+                <div class="gallery__down-second">
+                    <img src="web/image/5.png">
+                </div>
             </div>
         </div>
         <div>
@@ -131,7 +160,7 @@
             </form>
         </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="blog__info">
             <div class="blog__header">
                 <h2 class="blog__title">Blog</h2>
@@ -172,7 +201,7 @@
             <button name="blog__button">view more</button>
         </div>
     </section>
-    <section class="last">
+    <section class="last" id="contact">
         <div class="last__header">
             <h3 class="last__header-title">Contact</h3>
             <p class="last__title-desc">For new projects, ideas, business or anything
@@ -196,7 +225,7 @@
                     <div class="textbox">
                         <textarea cols="60" rows="10" placeholder="Your message..."></textarea>
                     </div>
-                    <div class="form__button">
+                    <div class="textbox">
                         <input class="btn" type="submit" name=" " value="Sign in">
                     </div>
                 </form>
