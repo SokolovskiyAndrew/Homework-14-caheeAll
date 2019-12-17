@@ -60,6 +60,7 @@
                     </a>
                 </div>
             </header>
+
             <div class="subtitle">
                 <h1 class="subtitle__title">Fresh life</h1>
                 <div class="subtitle__title-desc">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -67,54 +68,58 @@
                 </div>
                 <button class="subtitle__button" name="button">Get free now</button>
             </div>
-            <div class="cup">
-                <img class="cup__image" src="web/image/fruitcup.png" alt="cup of strawberry">
-                <div class="cup__title">
-                    <h2 class="cup__title-main" id="about">About Us</h2>
-                    <span class="cup__title-desc">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation
-                        ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum.
-                        Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</span>
-                </div>
+        </div>
+    </section>
+    <section class="cup">
+        <div class="cup__wrapper">
+            <img class="cup__image" src="web/image/fruitcup.png" alt="cup of strawberry">
+            <div class="cup__title">
+                <h2 class="cup__title-main" id="about">About Us</h2>
+                <span class="cup__title-desc">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation
+                    ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum.
+                    Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</span>
             </div>
         </div>
     </section>
     <section class="service" id="service">
-        <div class="service__list">
-            <ul class="list__item">
-                <li class="service__item">
-                    <span>Online Shopping</span>
-                    <div class="service__item-img">
-                        <img src="web/image/svg/bucket_icon.svg">
-                    </div>
-                </li>
-                <li class="service__item">
-                    <span>Quality Product</span>
-                    <div class="service__item-img">
-                        <img src="web/image/svg/furtile_icon.svg">
-                    </div>
-                </li>
-                <li class="service__item">
-                    <span>Domestic & International<br>
-                        Delivery<br>
-                    </span>
-                    <div class="service__item-img">
-                        <img src="web/image/svg/globe_icon.svg">
-                    </div>
-                </li>
-                <li class="service__item">
-                    <span>Well Organized</span>
-                    <div class="service__item-img">
-                        <img src="web/image/svg/carrot_icon.svg">
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="service__image">
-            <h2 class="service__title">Our Services</h2>
+        <div class="service__wrapper">
+            <div class="service__list">
+                <ul class="list__item">
+                    <li class="service__item">
+                        <span>Online Shopping</span>
+                        <div class="service__item-img">
+                            <img src="web/image/svg/bucket_icon.svg">
+                        </div>
+                    </li>
+                    <li class="service__item">
+                        <span>Quality Product</span>
+                        <div class="service__item-img">
+                            <img src="web/image/svg/furtile_icon.svg">
+                        </div>
+                    </li>
+                    <li class="service__item">
+                        <span>Domestic & International<br>
+                            Delivery<br>
+                        </span>
+                        <div class="service__item-img">
+                            <img src="web/image/svg/globe_icon.svg">
+                        </div>
+                    </li>
+                    <li class="service__item">
+                        <span>Well Organized</span>
+                        <div class="service__item-img">
+                            <img src="web/image/svg/carrot_icon.svg">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="service__image">
+                <h2 class="service__title">Our Services</h2>
+            </div>
         </div>
     </section>
     <section class="gallery" id="gallery">
@@ -148,16 +153,19 @@
         </div>
     </section>
     <section class="subs">
-        <div class="subs__info">
-            <h3 class="subs__title">Subscribe To Us</h3>
-            <p class="subs__title-desc">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                ut
-                labore et dolore magna
-                aliqua. Ut enim ad minim veniam.</p>
-            <form action="#" method="GET">
-                <input type="email" placeholder="Your email address.." required>
-                <input type="submit" value="Subscribe">
-            </form>
+        <div class="subs__wrapper">
+            <div class="subs__info">
+                <h3 class="subs__title">Subscribe To Us</h3>
+                <p class="subs__title-desc">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt
+                    ut
+                    labore et dolore magna
+                    aliqua. Ut enim ad minim veniam.</p>
+                <form action="#" method="GET">
+                    <input type="email" placeholder="Your email address.." required>
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
         </div>
     </section>
     <section class="blog" id="blog">
@@ -202,55 +210,60 @@
         </div>
     </section>
     <section class="last" id="contact">
-        <div class="last__header">
-            <h3 class="last__header-title">Contact</h3>
-            <p class="last__title-desc">For new projects, ideas, business or anything
-                you'd like to discuss, contact with me!</p>
-        </div>
-        <div class="last__main-wrapper">
-            <div class="form">
-                <form action="#" method="POST">
-                    <div class="textbox">
-                        <input type="text" placeholder="Username..." name="" value="" required>
-                    </div>
-
-                    <div class="textbox">
-                        <input type="email" placeholder="Your email..." name="" value="" required>
-                    </div>
-
-                    <div class="textbox">
-                        <input type="tel" placeholder="Your phone number..." name="" value="">
-                    </div>
-
-                    <div class="textbox">
-                        <textarea cols="60" rows="10" placeholder="Your message..."></textarea>
-                    </div>
-                    <div class="textbox">
-                        <input class="btn" type="submit" name=" " value="Sign in">
-                    </div>
-                </form>
+        <div class="last__wrapper">
+            <div class="last__header">
+                <h3 class="last__header-title">Contact</h3>
+                <p class="last__title-desc">For new projects, ideas, business or anything
+                    you'd like to discuss, contact with me!</p>
             </div>
-            <div class="last__main-address">
-                <div class="main__address-status">
-                    <h4 class="address__title">Address</h4>
-                    <p class="address__info">123 City name, Street, City, Country</p>
+            <div class="last__main-wrapper">
+                <div class="form">
+                    <form action="#" method="POST">
+                        <div class="textbox">
+                            <input type="text" placeholder="Username..." name="" value="" required>
+                        </div>
+
+                        <div class="textbox">
+                            <input type="email" placeholder="Your email..." name="" value="" required>
+                        </div>
+
+                        <div class="textbox">
+                            <input type="tel" placeholder="Your phone number..." name="" value="">
+                        </div>
+
+                        <div class="textbox">
+                            <textarea cols="60" rows="10" placeholder="Your message..."></textarea>
+                        </div>
+                        <div class="textbox">
+                            <input class="btn" type="submit" name=" " value="Sign in">
+                        </div>
+                    </form>
                 </div>
-                <div class="main__address-status">
-                    <h4 class="address__title">Email</h4>
-                    <p class="address__info">cahee@domain.com</p>
-                </div>
-                <div class="main__address-status">
-                    <h4 class="address__title">Phone</h4>
-                    <p class="address__info">+012 345 6789</p>
+                <div class="last__main-address">
+                    <div class="main__address-status">
+                        <h4 class="address__title">Address</h4>
+                        <p class="address__info">123 City name, Street, City, Country</p>
+                    </div>
+                    <div class="main__address-status">
+                        <h4 class="address__title">Email</h4>
+                        <p class="address__info">cahee@domain.com</p>
+                    </div>
+                    <div class="main__address-status">
+                        <h4 class="address__title">Phone</h4>
+                        <p class="address__info">+012 345 6789</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer">
-            <p class="footer__info">© 2015 Company. All right reserved</p>
-            <p class="footer__info footer__title">Cahee</p>
-            <p class="footer__info">Made with<span class="footer__lover"> love </span> by Auskteez</p>
         </div>
     </section>
+    <section class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__info">© 2015 Company. All right reserved</div>
+            <div class="footer__info footer__title">Cahee</div>
+            <div class="footer__info">Made with<span class="footer__lover"> love </span> by Auskteez</div>
+        </div>
+    </section>
+
 </body>
 
 </html>
